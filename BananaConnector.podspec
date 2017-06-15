@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BananaConnector"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "This is a repo of Banana.framework."
 
   # This description is used to generate tags and improve search results.
