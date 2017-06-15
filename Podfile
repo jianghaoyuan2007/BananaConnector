@@ -8,7 +8,7 @@ target 'BananaConnector' do
   # use_frameworks!
 
   # Pods for BananaConnector
-  pod 'CTMediator', '~> 6'
+  pod 'CTMediator'
   pod 'Banana'
   target 'BananaConnectorTests' do
     inherit! :search_paths
