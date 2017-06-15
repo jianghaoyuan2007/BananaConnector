@@ -1,4 +1,6 @@
 # Uncomment the next line to define a global platform for your project
+source 'https://github.com/jianghaoyuan2007/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 target 'BananaConnector' do
@@ -6,7 +8,8 @@ target 'BananaConnector' do
   # use_frameworks!
 
   # Pods for BananaConnector
-
+  pod 'CTMediator', '~> 6'
+  pod 'Banana'
   target 'BananaConnectorTests' do
     inherit! :search_paths
     # Pods for testing
