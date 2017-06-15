@@ -18,6 +18,9 @@ module Fastlane
           commands << "--quick"
         end
         
+        if params[:use_libraries]
+          commands << "--use-libraries"
+        end
         if params[:allow_warnings]
           commands << "--allow-warnings"
         end
@@ -58,6 +61,10 @@ module Fastlane
                                                  end),
                     FastlaneCore::ConfigItem.new(key: :quick,
                                                  description: "Lint skips checks that would require to download and build the spec",
+                                                 optional: true,
+                                                 is_string:false),
+                    FastlaneCore::ConfigItem.new(key: :use_libraries,
+                                                 description: "Lint validates even if libraries are present",
                                                  optional: true,
                                                  is_string:false),
                     FastlaneCore::ConfigItem.new(key: :allow_warnings,

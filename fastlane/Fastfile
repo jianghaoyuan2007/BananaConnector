@@ -338,6 +338,7 @@ lane :test_pod_spec_lint do |options|
 
   sf_pod_spec_lint(
     sources: [ENV["PRIVATE_POD_SOURCE"], ENV["COCOAPODS_SOURCE"]],
+    use_libraries: true,
     allow_warnings: true
   )
 end
