@@ -1,12 +1,21 @@
 PODS:
+  - Banana (0.1.0):
+    - Masonry (~> 1.0.2)
+  - CTMediator (6)
   - Kiwi (2.4.0)
+  - Masonry (1.0.2)
 
 DEPENDENCIES:
+  - Banana
+  - CTMediator (~> 6)
   - Kiwi (~> 2.4.0)
 
 SPEC CHECKSUMS:
+  Banana: cd0769c4fa1a3543eb03c766452dd2335623896b
+  CTMediator: 334b9eaab167dc41868106b380a2a99fddd26e48
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: 899d7d602e9786e169d924f0385fa0eeb8394e5c
+PODFILE CHECKSUM: b160d7efc91eee8c53cb903f02af124664d737d2
 
 COCOAPODS: 1.2.1
